@@ -7,6 +7,7 @@ class OrderScreen extends StatelessWidget {
 
   @override
   Widget _buildOrderBack() => Container(
+    //TODO: change this UI, it's ugly now
     decoration: BoxDecoration(
         gradient: LinearGradient(
             colors: [Color.fromARGB(255, 203, 236, 241), Colors.redAccent],

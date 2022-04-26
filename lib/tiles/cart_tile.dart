@@ -64,6 +64,7 @@ class CartTile extends StatelessWidget {
                             CartModel.of(context).incrementProduct(cartProduct);
 
                           }),
+                      //TODO: change to textButton
                       FlatButton(
                         onPressed: () {
                           CartModel.of(context).removeCartItem(cartProduct);

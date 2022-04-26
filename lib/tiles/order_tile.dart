@@ -81,7 +81,7 @@ class OrderTile extends StatelessWidget {
         style: TextStyle(color: Colors.white),
       );
     } else if (status == thisStatus) {
-      backColor = Colors.blue[500];
+      backColor = Colors.blue[800];
       child = Stack(
         alignment: Alignment.center,
         children: <Widget>[
@@ -90,7 +90,7 @@ class OrderTile extends StatelessWidget {
             style: TextStyle(color: Colors.white),
           ),
           CircularProgressIndicator(
-            valueColor: AlwaysStoppedAnimation<Color>(Colors.blueAccent[400]),
+            valueColor: AlwaysStoppedAnimation<Color>(Colors.blue[400]),
           )
         ],
       );

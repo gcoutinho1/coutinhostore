@@ -26,7 +26,9 @@ class OrdersTab extends StatelessWidget {
               return ListView(
                 children: snapshot.data.documents
                     .map((doc) => OrderTile(doc.documentID))
-                    .toList().reversed.toList(),
+                    .toList()
+                    .reversed
+                    .toList(),
               );
             }
           });
@@ -40,7 +42,7 @@ class OrdersTab extends StatelessWidget {
             Icon(
               Icons.view_list,
               size: 80,
-              color: Theme.of(context).primaryColor,
+              color: Colors.grey,
             ),
             SizedBox(
               height: 16,
@@ -53,17 +55,18 @@ class OrdersTab extends StatelessWidget {
             SizedBox(
               height: 16,
             ),
-            RaisedButton(
+            ElevatedButton(
               child: Text(
                 "Entrar",
-                style: TextStyle(fontSize: 15),
               ),
-              textColor: Colors.white,
-              color: Theme.of(context).primaryColor,
               onPressed: () {
                 Navigator.of(context).push(
                     MaterialPageRoute(builder: (context) => LoginScreen()));
               },
+              style: ElevatedButton.styleFrom(
+                primary: Theme.of(context).primaryColor,
+                textStyle: TextStyle(fontSize: 15, fontWeight: FontWeight.bold),
+              ),
             ),
           ],
         ),

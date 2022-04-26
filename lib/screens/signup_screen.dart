@@ -50,7 +50,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
                   TextFormField(
                     controller: _emailController,
                     decoration: InputDecoration(
-                        hintText: "email"
+                        hintText: "Email"
                     ),
                     keyboardType: TextInputType.emailAddress,
                     validator: (text){

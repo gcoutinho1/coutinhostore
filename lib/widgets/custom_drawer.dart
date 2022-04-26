@@ -13,10 +13,14 @@ class CustomDrawer extends StatelessWidget {
   Widget _buildDrawerBack() => Container(
     decoration: BoxDecoration(
         gradient: LinearGradient(colors: [
-          Color.fromARGB(255, 203, 236, 241),
-          Colors.white
-//          Color.fromARGB(255, 253, 181, 168),
-        ], begin: Alignment.topCenter, end: Alignment.bottomCenter)),
+
+          Colors.white,
+          Colors.white70,
+          // Colors.white
+
+        ],
+            stops: [0.4, 0.8],
+            begin: Alignment.topCenter, end: Alignment.bottomCenter)),
   );
   Widget build(BuildContext context) {
     return Drawer(
@@ -38,7 +42,7 @@ class CustomDrawer extends StatelessWidget {
                       child: (Text(
                         "Coutinho Store",
                         style: TextStyle(
-                            fontSize: 34, fontWeight: FontWeight.bold),
+                            fontSize: 34, fontWeight: FontWeight.bold, color: Colors.black),
                       )),
                     ),
                     Positioned(
@@ -53,7 +57,7 @@ class CustomDrawer extends StatelessWidget {
                                   "Olá, ${!model.isLoggedIn() ? "" : model.userData["name"]}",
                                   style: TextStyle(
                                       fontSize: 13,
-                                      fontWeight: FontWeight.bold),
+                                      fontWeight: FontWeight.bold, color: Colors.black),
                                 ),
                                 GestureDetector(
                                   child: Text(

@@ -25,12 +25,19 @@ class MyApp extends StatelessWidget {
               return ScopedModel<CartModel> (
                 model: CartModel(model),
                 child: MaterialApp(
-                  title: 'Coutinho Store',
+                  title: "Coutinho Store",
                   theme: ThemeData(
-                    primarySwatch: Colors.blue,
-                    primaryColor: Color.fromARGB(255, 4, 125, 141),
-                    visualDensity: VisualDensity.adaptivePlatformDensity,
+                      // primarySwatch: Colors.red,
+                      primaryColor: Colors.black,
+                      brightness: Brightness.dark,
+                      visualDensity: VisualDensity.adaptivePlatformDensity,
                   ),
+                  // theme: ThemeData(
+                  //   primarySwatch: Colors.blue,
+                  //   // primaryColor: Color.fromARGB(255, 4, 125, 141),
+                  //   primaryColor: Color.fromARGB(255, 100, 200, 100),
+                  //   visualDensity: VisualDensity.adaptivePlatformDensity,
+                  // ),
                   debugShowCheckedModeBanner: false,
                   home: HomeScreen(),
                 ),

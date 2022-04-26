@@ -38,7 +38,8 @@ class _ProductScreenState extends State<ProductScreen> {
               dotSize: 4,
               dotSpacing: 10,
               dotBgColor: Colors.transparent,
-              dotColor: primaryColor,
+              dotColor: Colors.redAccent,
+              dotIncreasedColor: Colors.black,
 //              autoplay: false,  alterar imgs automatico
             ),
           ),
@@ -57,7 +58,7 @@ class _ProductScreenState extends State<ProductScreen> {
                   style: TextStyle(
                       fontSize: 15,
                       fontWeight: FontWeight.bold,
-                      color: primaryColor),
+                      color: Colors.blue[700]),
                 ),
                 SizedBox(
                   height: 16,
@@ -83,7 +84,7 @@ class _ProductScreenState extends State<ProductScreen> {
                       child: Container(
                         decoration: BoxDecoration(
                             borderRadius: BorderRadius.all(Radius.circular(5)),
-                            border: Border.all(color: e == size ? primaryColor : Colors.green[500])
+                            border: Border.all(color: e == size ? Colors.blue[700] : Colors.grey[500])
                         ),
                         width: 50,
                         alignment: Alignment.center,
@@ -127,6 +128,7 @@ class _ProductScreenState extends State<ProductScreen> {
                 SizedBox(height: 16),
                 Text("Descrição", style: TextStyle(fontSize: 16, fontWeight: FontWeight.w500)
                 ),
+                SizedBox(height: 16),
                 Text(product.description, style: TextStyle(fontSize: 16)
                 ),
               ],

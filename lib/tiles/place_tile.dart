@@ -29,11 +29,11 @@ class PlaceTile extends StatelessWidget {
                 Text(snapshot.data["title"],
                     textAlign: TextAlign.start,
                     style:
-                    TextStyle(fontWeight: FontWeight.bold, fontSize: 17)),
+                        TextStyle(fontWeight: FontWeight.bold, fontSize: 17)),
                 Text(snapshot.data["adress"],
                     textAlign: TextAlign.start,
                     style:
-                    TextStyle(fontWeight: FontWeight.w300, fontSize: 17)),
+                        TextStyle(fontWeight: FontWeight.w300, fontSize: 17)),
               ],
             ),
           ),
@@ -41,20 +41,25 @@ class PlaceTile extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.end,
 //            crossAxisAlignment: CrossAxisAlignment.end,
             children: <Widget>[
-              FlatButton(
-                child: Text("Ver Localização"),
-                textColor: Theme.of(context).primaryColor,
-                padding: EdgeInsets.zero,
+              TextButton.icon(
+                // autofocus: false,
+                label: Text(
+                  "Ver Localização",
+                  style: TextStyle(color: Colors.white, fontSize: 15),
+                ),
+                icon: Icon(Icons.location_on, color: Colors.red),
                 onPressed: () {
                   launch(
                       "https://www.google.com/maps/search/?api=1&query=${snapshot.data["lat"]},"
-                          "${snapshot.data["long"]}");
+                      "${snapshot.data["long"]}");
                 },
               ),
-              FlatButton(
-                child: Text("Ligar na loja"),
-                textColor: Theme.of(context).primaryColor,
-                padding: EdgeInsets.zero,
+              TextButton.icon(
+                label: Text(
+                  "Ligar na loja",
+                  style: TextStyle(color: Colors.white, fontSize: 15),
+                ),
+                icon: Icon(Icons.phone),
                 onPressed: () {
                   launch("tel:${snapshot.data["phone"]}");
                 },
