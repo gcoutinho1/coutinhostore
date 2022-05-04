@@ -1,7 +1,9 @@
 # Coutinho Store
 ![](https://img.shields.io/badge/version-1.0-red?style=flat-square)  
-![](https://img.shields.io/badge/support-grey?style=flat-square)![](https://img.shields.io/badge/-red?style=flat-square&logo=android)![](https://img.shields.io/badge/-red?style=flat-square&logo=ios)![](https://img.shields.io/badge/-red?style=flat-square&logo=windows)
+![](https://img.shields.io/badge/support-grey?style=flat-square)![](https://img.shields.io/badge/-red?style=flat-square&logo=android)![](https://img.shields.io/badge/-red?style=flat-square&logo=ios)![](https://img.shields.io/badge/-red?style=flat-square&logo=windows)  
 _My Shoe Store **App**_  
+
+---
 
 <p align="center">
   <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/home_screen.gif">
