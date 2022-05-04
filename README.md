@@ -1,24 +1,18 @@
 # Coutinho Store
 ![](https://img.shields.io/badge/version-1.0-red?style=flat-square)  
-![](https://img.shields.io/badge/support-grey?style=flat-square) ![](https://img.shields.io/badge/-red?style=flat-square&logo=android) ![](https://img.shields.io/badge/-red?style=flat-square&logo=ios)
-<!-- <h4 align="My Shoe Store App"</h4> -->
+![](https://img.shields.io/badge/support-grey?style=flat-square)![](https://img.shields.io/badge/-red?style=flat-square&logo=android)![](https://img.shields.io/badge/-red?style=flat-square&logo=ios)![](https://img.shields.io/badge/-red?style=flat-square&logo=windows)
+_My Shoe Store **App**_
 
-<!-- <p align="center">
-  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/login.gif">
-  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/login_google.gif">
+<p align="center">
+  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/home_screen.gif">
+  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/products_screen.gif">
 </p>
 <p align="center">
-  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/favorites_details.gif">
-  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/cadastro_validacao.gif">
-</p> -->
+  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/requests_screen.gif">
+  <img width="250" height="500" src="https://github.com/gcoutinho1/coutinhostore/blob/master/gifs/store_screen.gif">
+</p>
 
 ---
-
-#### ⚙ Funcionalidades
-- 
-- 
-- 
-- 
 
 #### 🛠 Tecnologias
 As seguintes ferramentas foram utilizadas na construção deste projeto:
@@ -30,8 +24,14 @@ As seguintes ferramentas foram utilizadas na construção deste projeto:
 
 #### 💾 Packages
 
--
--
--
+flutter_staggered_grid_view
+cloud_firestore
+carousel_pro
+transparent_image
+scoped_model
+path_provider
+firebase_auth
+url_launcher
+google_fonts
 
 ---
