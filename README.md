@@ -1,6 +1,6 @@
 # Coutinho Store
 ![](https://img.shields.io/badge/version-1.0-red?style=flat-square)  
-![](https://img.shields.io/badge/support-grey?style=flat-square)![](https://img.shields.io/badge/-red?style=flat-square&logo=android)![](https://img.shields.io/badge/-red?style=flat-square&logo=ios)![](https://img.shields.io/badge/-red?style=flat-square&logo=windows)  
+![](https://img.shields.io/badge/support-grey?style=flat-square)![](https://img.shields.io/badge/-red?style=flat-square&logo=android)![](https://img.shields.io/badge/-red?style=flat-square&logo=ios)  
 _My Shoe Store **App**_  
 
 ---
